@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samruddhi Tiwari - Software Developer Portfolio</title>
+    <meta name="description" content="Software Developer specializing in MERN Stack, Python, and C++. View my projects including FinTech Portfolio Tracker, TeamBoard Task Manager, and more. Get in touch for collaboration opportunities.">
+    
+    <!-- Open Graph tags for social media -->
+    <meta property="og:title" content="Samruddhi Tiwari - Software Developer Portfolio">
+    <meta property="og:description" content="Professional software developer portfolio showcasing full-stack projects, machine learning applications, and technical expertise.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="gradient-text">Samruddhi Tiwari</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu">
+            <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+            <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+            <a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a>
+            <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Samruddhi Tiwari</span>
+                </h1>
+                <h2 class="hero-subtitle">Software Developer</h2>
+                <p class="hero-description">
+                    Passionate about building innovative web applications with modern technologies. 
+                    Specializing in MERN Stack, Python, and creating seamless user experiences.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                        View My Work
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        Get In Touch
+                    </button>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/samruddhitiwari" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samruddhi-tiwari-l-i-o-n-1083b4257" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:samruddhitiwari003@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    I'm a dedicated software developer with a passion for creating efficient, scalable, and user-friendly applications.
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>My Expertise</h3>
+                    <p>
+                        With expertise in full-stack development, I specialize in building modern web applications using the MERN stack. 
+                        I'm passionate about clean code, user experience, and solving complex problems through technology.
+                    </p>
+                    
+                    <div class="expertise-list">
+                        <div class="expertise-item">
+                            <div class="expertise-dot dot-blue"></div>
+                            <span>Full-Stack Web Development</span>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-dot dot-purple"></div>
+                            <span>Machine Learning & Data Analysis</span>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-dot dot-green"></div>
+                            <span>Algorithm Design & Problem Solving</span>
+                        </div>
+                        <div class="expertise-item">
+                            <div class="expertise-dot dot-pink"></div>
+                            <span>Real-time Applications & WebSockets</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="technologies">
+                    <h3>Technologies</h3>
+                    <div class="tech-grid">
+                        <div class="tech-category">
+                            <h4>Frontend</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag blue">React.js</span>
+                                <span class="tech-tag blue">Redux</span>
+                                <span class="tech-tag blue">Tailwind CSS</span>
+                                <span class="tech-tag blue">Chart.js</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Backend</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag green">Node.js</span>
+                                <span class="tech-tag green">Express</span>
+                                <span class="tech-tag green">MongoDB</span>
+                                <span class="tech-tag green">Redis</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Languages</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag purple">JavaScript</span>
+                                <span class="tech-tag purple">Python</span>
+                                <span class="tech-tag purple">C++</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Tools</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag orange">Socket.IO</span>
+                                <span class="tech-tag orange">JWT</span>
+                                <span class="tech-tag orange">Scikit-learn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Here are some of my recent projects that showcase my skills in full-stack development, machine learning, and problem-solving.
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">FinTech Portfolio Tracker</h3>
+                        <span class="project-date">Mar 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A responsive FinTech dashboard that allows users to link mock accounts, track real-time portfolio value, and analyze transaction history via dynamic charts. Features JWT-based authentication with role-based access.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Real-time portfolio tracking and visualization</li>
+                            <li><i class="fas fa-check-circle"></i> JWT-based user authentication</li>
+                            <li><i class="fas fa-check-circle"></i> MongoDB Atlas integration for data persistence</li>
+                            <li><i class="fas fa-check-circle"></i> Dynamic charts using Chart.js and Recharts</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag blue">MERN Stack</span>
+                        <span class="tech-tag cyan">Tailwind CSS</span>
+                        <span class="tech-tag orange">Chart.js</span>
+                        <span class="tech-tag gray">JWT</span>
+                        <span class="tech-tag purple">Axios</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-project blue">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">TeamBoard – Real-Time Task Manager</h3>
+                        <span class="project-date">Apr 2025</span>
+                    </div>
+                    <p class="project-description">
+                        A Kanban-style collaborative task board where multiple users can manage tasks in real time. Perfect for agile teams with features like user tagging, priority levels, and deadline reminders.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Real-time collaboration with Socket.IO</li>
+                            <li><i class="fas fa-check-circle"></i> Offline support and optimistic UI updates</li>
+                            <li><i class="fas fa-check-circle"></i> User tagging and priority management</li>
+                            <li><i class="fas fa-check-circle"></i> CI/CD with GitHub Actions</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag blue">MERN Stack</span>
+                        <span class="tech-tag purple">Redux</span>
+                        <span class="tech-tag cyan">Tailwind CSS</span>
+                        <span class="tech-tag orange">Socket.IO</span>
+                        <span class="tech-tag red">Redis</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-project green">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Snake and Sudoku Solver</h3>
+                        <span class="project-date">Jan 2025</span>
+                    </div>
+                    <p class="project-description">
+                        Classic games and algorithms implemented in C++. Features a Snake game with BGI Graphics Library and an intelligent Sudoku solver using backtracking algorithms.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Snake game with collision detection</li>
+                            <li><i class="fas fa-check-circle"></i> Progressive level difficulty</li>
+                            <li><i class="fas fa-check-circle"></i> Sudoku solver with backtracking</li>
+                            <li><i class="fas fa-check-circle"></i> Graphics rendering with BGI</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag purple">C++</span>
+                        <span class="tech-tag gray">GCC</span>
+                        <span class="tech-tag blue">CLion</span>
+                        <span class="tech-tag indigo">Visual Studio Code</span>
+                        <span class="tech-tag green">BGI Graphics</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-project purple">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Book Recommendation System</h3>
+                        <span class="project-date">Dec 2024</span>
+                    </div>
+                    <p class="project-description">
+                        An intelligent machine learning model that provides personalized book recommendations based on user preferences. Built with comprehensive data processing and beautiful visualizations.
+                    </p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> ML-powered recommendation engine</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced data processing pipeline</li>
+                            <li><i class="fas fa-check-circle"></i> Interactive data visualizations</li>
+                            <li><i class="fas fa-check-circle"></i> User preference analysis</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag blue">Python</span>
+                        <span class="tech-tag green">Scikit-learn</span>
+                        <span class="tech-tag purple">Pandas</span>
+                        <span class="tech-tag orange">NumPy</span>
+                        <span class="tech-tag red">Matplotlib</span>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-project orange">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </button>
+                        <button class="btn btn-outline">
+                            <i class="fab fa-github"></i> View Code
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">
+                    I'm always excited to work on new projects and collaborate with amazing people. 
+                    Feel free to reach out if you'd like to discuss opportunities or just say hello!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon blue">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>Email</p>
+                                <a href="mailto:samruddhitiwari003@gmail.com">samruddhitiwari003@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon green">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>Phone</p>
+                                <a href="tel:+919582032383">+91 9582032383</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon dark">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>GitHub</p>
+                                <a href="https://github.com/samruddhitiwari" target="_blank" rel="noopener noreferrer">github.com/samruddhitiwari</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon blue">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <p>LinkedIn</p>
+                                <a href="https://www.linkedin.com/in/samruddhi-tiwari-l-i-o-n-1083b4257" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3>Send a Message</h3>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell me about your project or just say hello!" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-form">
+                                <span class="btn-text">Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>
+                        <span class="gradient-text">Samruddhi Tiwari</span>
+                    </h3>
+                    <p>Software Developer</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/samruddhitiwari" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samruddhi-tiwari-l-i-o-n-1083b4257" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:samruddhitiwari003@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919582032383">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Samruddhi Tiwari. Built with passion and attention to detail.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Message Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for your message! I'll get back to you soon.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
